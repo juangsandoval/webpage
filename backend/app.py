@@ -8,7 +8,7 @@ app = Flask(__name__)
 # En producción es mejor poner aquí la URL real de Cloudflare Pages.
 CORS(app, resources={
     r"/api/*": {
-        "origins": os.environ.get("FRONTEND_URL", "*").split(",")
+        "origins": os.environ.get("FRONTEND_URL")
     }
 })
 
