@@ -2,7 +2,7 @@
 // Ejemplo:
 // const API_URL = "https://suma-backend.onrender.com/api/sumar";
 
-const API_URL = "https://TU-SERVICIO-EN-RENDER.onrender.com/api/sumar";
+const API_URL = "https://webpage-ez8r.onrender.com/api/sumar";
 
 const formulario = document.getElementById("formulario");
 const resultadoDiv = document.getElementById("resultado");
