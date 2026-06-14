@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Sumar dos números</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 500px;
+      margin: 40px auto;
+      padding: 20px;
+      background: #f4f4f4;
+    }
+
+    main {
+      background: white;
+      padding: 25px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    label {
+      display: block;
+      margin-top: 15px;
+    }
+
+    input {
+      width: 100%;
+      padding: 10px;
+      margin-top: 5px;
+      box-sizing: border-box;
+    }
+
+    button {
+      margin-top: 20px;
+      padding: 10px 15px;
+      cursor: pointer;
+    }
+
+    #resultado {
+      margin-top: 20px;
+      font-weight: bold;
+      font-size: 1.2rem;
+    }
+  </style>
+</head>
+<body>
+
+  <main>
+    <h1>Sumar dos números</h1>
+
+    <form id="formulario">
+      <label for="numero1">Número 1</label>
+      <input type="number" id="numero1" step="any" required>
+
+      <label for="numero2">Número 2</label>
+      <input type="number" id="numero2" step="any" required>
+
+      <button type="submit">Sumar</button>
+    </form>
+
+    <div id="resultado"></div>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
